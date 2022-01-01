@@ -31,9 +31,13 @@ const Todo = ({todos}) => {
 
     const handleClose = () => setModalShow(false);
 
-    if (todos.length === 0) {
-      return (<Loader />);
-    }
+     if (todos.length === 0) {
+      return (
+        <span>
+            There's no todos yet. Add one!
+        </span>
+      );
+    } 
     
     return (
       <>
