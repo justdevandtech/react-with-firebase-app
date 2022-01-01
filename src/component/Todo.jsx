@@ -38,7 +38,7 @@ const Todo = ({ todos }) => {
         return (
           <div
             key={index}
-            className='bg-white todobox col-lg-4 mx-auto mt-2 p-3 mt-3 rounded d-flex align-items-center justify-content-between'
+            className='bg-white todobox col-lg-4 mx-auto mt-2 p-3 rounded d-flex align-items-center justify-content-between'
           >
             <Button variant='' className='mr-3'>
               <input type='checkbox' onClick={() => isCompletedTask(todo.id)} />

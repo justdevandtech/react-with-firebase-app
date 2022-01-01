@@ -26,7 +26,9 @@ function App() {
     <div className='mt-5 container'>
       <h1 className='text-center'>What's Up Today?</h1>
       <Todos />
-      <Todo todos={todos} />
+      <div style={{marginTop: "80px"}}>
+        <Todo todos={todos} />
+      </div>
     </div>
   );
 }
