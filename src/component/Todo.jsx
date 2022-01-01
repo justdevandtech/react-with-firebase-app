@@ -2,7 +2,6 @@ import React from "react";
 import { Button } from "react-bootstrap";
 import { BsTrash } from "react-icons/bs";
 import { FaEdit } from "react-icons/fa";
-import Loader from "./Loader";
 import "./todo.css";
 import { EditTodoModal } from "./EditTodosModal";
 import db from "../firebase";
